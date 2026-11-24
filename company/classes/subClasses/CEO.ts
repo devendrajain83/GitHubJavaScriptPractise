@@ -29,7 +29,6 @@ export default class CEO extends Employee {
 
         }
 
-    
 
     displayReportee(): void {
 
