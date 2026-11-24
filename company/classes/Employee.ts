@@ -11,9 +11,10 @@ export default class Employee implements EmployeeDetails {
 
 
     constructor(public empId: number, public empName: string, public empDOB: string, public empAddress: string, public empQualification: Set<string>, public empContactDetails: string, public designation: designationType, department: Department) {
-        if (this.empId === empId) {
-            throw new Error(`employee with empId ${this.empId} is already present in the system, duplicates empid are not allowed`);
-        }
+        // if(this.empId===empId)
+        // {
+        //     throw new Error(`employee with empId ${this.empId} is already present in the system, duplicates empid are not allowed`);
+        // }
 
         this.empDOB = new Date(empDOB).toLocaleDateString("en-GB")
         this.department = department;
@@ -27,8 +28,11 @@ export default class Employee implements EmployeeDetails {
         return this.empId + " " + this.empName + " " + this.empDOB + " " + this.empAddress + " " + qualification + " " + this.empContactDetails + " " + this.designation + " " + this.department.deptDetails();
     }
 
+    // setEmployeeId():number {
 
+      
 
+    // }
 
     addReportee(emp: Employee): void {
 
