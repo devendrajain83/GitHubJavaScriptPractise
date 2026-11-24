@@ -1,0 +1,16 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Debug TS File",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx"],
+      "args": ["${relativeFile}"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+
+  {
+
+  "empId": 1,
+  "empName": "Arun Nathani",
+  "empDOB": "1/1/1970",
+  "empAddress": "Kalyani Nagar Pune 411014",
+  "empQualification": ["B.E (COMP)", "M Tech", "MBA"],
+  "empContactDetails": "9423905616",
+  "designation": "CEO",
+  "deptId": "dept01",
+  "deptName": "Engineering",
+  "reportToId": null
+
+  },
+  {
+
+  "empId": 401,
+  "empName": "Ashwin Parmar",
+  "empDOB": "1/1/1970",
+  "empAddress": "Kalyani Nagar Pune 411014",
+  "empQualification": ["B.E (COMP)", "C-DAC", "MBA(Finance)"],
+  "empContactDetails": "9823456701",
+  "designation": "VP",
+  "deptId": "dept01",
+  "deptName": "Engineering",
+  "reportToId": 1
+
+  },
+
+ {
+
+  "empId": 301,
+  "empName": "Anju Razdan",
+  "empDOB": "1/1/1968",
+  "empAddress": "Kalyani Nagar Pune 411014",
+  "empQualification": ["B.E (COMP)", "C-DAC", "MBA(IT)"],
+  "empContactDetails": "9823456701",
+  "designation": "Delivery Manager",
+  "deptId": "dept01",
+  "deptName": "Engineering",
+  "reportToId":401
+
+  }
+
+]

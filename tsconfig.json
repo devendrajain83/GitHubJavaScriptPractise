@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "paths": {
+      "undici-types": ["./node_modules/undici-types/index.d.ts"]
+    }
+  }
+}

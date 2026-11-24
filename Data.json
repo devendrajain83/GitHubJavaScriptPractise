@@ -1,0 +1,30 @@
+ [
+
+    {
+      "empId": "emp1",
+"empname": "Ram",
+"empAddress": "Pune",
+"departmentid": 1,
+"departmentName": "Engineering"
+    },
+
+ {
+      "empId": "emp2",
+"empname": "Abhinav",
+"empAddress": "Mumbai",
+"departmentid": 2,
+"departmentName": "HR"
+    },
+   
+ {
+      "empId": "emp3",
+"empname": "Aarav",
+"empAddress": "Pune",
+"departmentid": 1,
+"departmentName": "Engineering"
+    }
+
+
+   ]
+
+
